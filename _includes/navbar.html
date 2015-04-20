@@ -1,0 +1,19 @@
+<nav class="navbar navbar-default">
+  <div class="container text-center">
+    <div class="navbar-head">
+      <a class="navbar-brand" href="/"><img src="logo.svg"/></a>
+      <a class="navbar-brand navbar-brand-main" href="/">{{ site.title }}</a>
+    </div>
+    <div class="navbar-btn btn btn-primary navbar-network" data-toggle="modal" data-target="#networks">
+      <span class="caret pull-right"></span>
+      <div class="current-network">
+        <i class="glyphicon glyphicon-refresh activity-indicator spin" alt="Loading..."></i>
+      </div>
+    </div>
+    <div class="pull-right navbar-btn btn btn-default navbar-refresh" id="refresh" title="Refresh">
+      <span id="updated"></span>
+      &nbsp;
+      <i class="glyphicon glyphicon-refresh activity-indicator" alt="Refresh"></i>
+    </div>
+  </div>
+</nav>

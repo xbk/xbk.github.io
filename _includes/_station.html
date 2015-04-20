@@ -1,0 +1,22 @@
+<div id="#{id}" class="col-lg-4 col-md-6 col-sm-12 station">
+  <div class="panel panel-#{color}">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <strong>#{name}</strong>
+        <button type="button" class="close btn-action pull-right" data-action="#{action}" data-id="#{id}" title="#{title}">
+          <span><i class="glyphicon glyphicon-#{icon}" aria-hidden="true"></i></span>
+        </button>
+      </h4>
+    </div>
+    <div class="panel-body">
+      <div class="progress">
+        <div class="progress-bar progress-bar-#{color}" style="width: #{percent}%">
+          <strong>#{if free_bikes > 0 then free_bikes else ''}</strong>
+        </div>
+        <div class="progress-bar progress-bar-transparent" style="width: #{100-percent}%">
+          #{empty_slots}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

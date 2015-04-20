@@ -1,0 +1,13 @@
+{
+  "name": "ubuntu-font-family",
+  "_cacheHeaders": {
+    "ETag": "\"21ecf-1fea7b-4f2b0fbb5bc80\"",
+    "Last-Modified": "Tue, 18 Feb 2014 16:44:18 GMT",
+    "Content-Length": "2091643",
+    "Content-Type": "application/zip"
+  },
+  "_release": "e-tag:21ecf-1fe",
+  "_source": "http://font.ubuntu.com/download/ubuntu-font-family-0.80.zip",
+  "_target": "*",
+  "_originalSource": "http://font.ubuntu.com/download/ubuntu-font-family-0.80.zip"
+}

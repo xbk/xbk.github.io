@@ -1,0 +1,24 @@
+{
+  "name": "xbk.github.io",
+  "version": "0.0.1",
+  "homepage": "https://xbk.github.io",
+  "authors": [
+    "Jorge Barata"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "jquery": "~2.1.3",
+    "lunr.js": "~0.5.8",
+    "ubuntu-font-family": "http://font.ubuntu.com/download/ubuntu-font-family-0.80.zip"
+  },
+  "install" : {
+    "path" : "vendor",
+    "sources" : {
+      "bootstrap" : "bower_components/bootstrap/dist/**",
+      "jquery" : "bower_components/jquery/dist/*",
+      "lunr.js" : "bower_components/lunr.js/lunr.min.js",
+      "ubuntu-font-family": "bower_components/ubuntu-font-family/*.ttf"
+    }
+  }
+}

@@ -1,0 +1,1925 @@
+{
+  "network": {
+    "stations": [
+      {
+        "empty_slots": 0,
+        "extra": {
+          "address": "Heuston Station (Central) JFDKL DFG  AS SD F S LJSDFJKLJKLJ", 
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": false,
+          "uid": 93
+        },
+        "free_bikes": 40,
+        "id": "e8f23b591ae7a2afdfe06058eae28e66",
+        "latitude": 53.346603,
+        "longitude": -6.296924,
+        "name": "Heuston Station (Central)",
+        "timestamp": "2015-04-17T22:17:53.995Z"
+      },
+      {
+        "empty_slots": 33,
+        "extra": {
+          "address": "Fenian Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 35,
+          "ticket": false,
+          "uid": 63
+        },
+        "free_bikes": 2,
+        "id": "b1c774f178240d5d757854364dafc840",
+        "latitude": 53.341428,
+        "longitude": -6.24672,
+        "name": "Fenian Street",
+        "timestamp": "2015-04-17T22:23:53.334Z"
+      },
+      {
+        "empty_slots": 30,
+        "extra": {
+          "address": "City Quay",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 30,
+          "ticket": false,
+          "uid": 99
+        },
+        "free_bikes": 0,
+        "id": "135d1f3410c5dbcc49c55a1d522dbbe6",
+        "latitude": 53.346637,
+        "longitude": -6.246154,
+        "name": "City Quay",
+        "timestamp": "2015-04-17T22:23:53.417Z"
+      },
+      {
+        "empty_slots": 7,
+        "extra": {
+          "address": "Brookfield Road",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 30,
+          "ticket": false,
+          "uid": 84
+        },
+        "free_bikes": 23,
+        "id": "516ee41c56889c29b8fa5f4ac0e824f4",
+        "latitude": 53.339005,
+        "longitude": -6.300217,
+        "name": "Brookfield Road",
+        "timestamp": "2015-04-17T22:23:53.527Z"
+      },
+      {
+        "empty_slots": 10,
+        "extra": {
+          "address": "Emmet Road",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": false,
+          "uid": 83
+        },
+        "free_bikes": 30,
+        "id": "6bff19daf1747a1e956a899ef8021232",
+        "latitude": 53.340714,
+        "longitude": -6.308191,
+        "name": "Emmet Road",
+        "timestamp": "2015-04-17T22:23:53.579Z"
+      },
+      {
+        "empty_slots": 16,
+        "extra": {
+          "address": "Rothe Abbey",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 35,
+          "ticket": true,
+          "uid": 85
+        },
+        "free_bikes": 19,
+        "id": "11b359924d83d802a41856c405d13e61",
+        "latitude": 53.338776,
+        "longitude": -6.30395,
+        "name": "Rothe Abbey",
+        "timestamp": "2015-04-17T22:23:53.65Z"
+      },
+      {
+        "empty_slots": 15,
+        "extra": {
+          "address": "King Street North",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 30,
+          "ticket": false,
+          "uid": 101
+        },
+        "free_bikes": 15,
+        "id": "0e810897bfa0ec6bb84a6ed4cbef236f",
+        "latitude": 53.350291,
+        "longitude": -6.273507,
+        "name": "King Street North",
+        "timestamp": "2015-04-17T22:23:53.754Z"
+      },
+      {
+        "empty_slots": 1,
+        "extra": {
+          "address": "Ormond Quay Upper",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 29,
+          "ticket": true,
+          "uid": 29
+        },
+        "free_bikes": 28,
+        "id": "b1c790286e760185c240642d01f05b78",
+        "latitude": 53.346057,
+        "longitude": -6.268001,
+        "name": "Ormond Quay Upper",
+        "timestamp": "2015-04-17T22:22:56.411Z"
+      },
+      {
+        "empty_slots": 27,
+        "extra": {
+          "address": "Merrion Square East",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 30,
+          "ticket": false,
+          "uid": 25
+        },
+        "free_bikes": 3,
+        "id": "309e2bc421c732ddb1dc59f2e28cebe2",
+        "latitude": 53.339434,
+        "longitude": -6.246548,
+        "name": "Merrion Square East",
+        "timestamp": "2015-04-17T22:22:56.226Z"
+      },
+      {
+        "empty_slots": 15,
+        "extra": {
+          "address": "Merrion Square West",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 20,
+          "ticket": true,
+          "uid": 26
+        },
+        "free_bikes": 5,
+        "id": "879c05e967e65c50e8121f8e41699bd1",
+        "latitude": 53.339764,
+        "longitude": -6.251988,
+        "name": "Merrion Square West",
+        "timestamp": "2015-04-17T22:22:56.28Z"
+      },
+      {
+        "empty_slots": 16,
+        "extra": {
+          "address": "Molesworth Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 20,
+          "ticket": false,
+          "uid": 27
+        },
+        "free_bikes": 4,
+        "id": "68a1b64209d3d6f8ddc9a449ce9e2d29",
+        "latitude": 53.341288,
+        "longitude": -6.258117,
+        "name": "Molesworth Street",
+        "timestamp": "2015-04-17T22:22:56.325Z"
+      },
+      {
+        "empty_slots": 11,
+        "extra": {
+          "address": "Bolton Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 20,
+          "ticket": false,
+          "uid": 3
+        },
+        "free_bikes": 9,
+        "id": "05280ab89efb0433301353fd0b73b054",
+        "latitude": 53.351182,
+        "longitude": -6.269859,
+        "name": "Bolton Street",
+        "timestamp": "2015-04-17T22:22:56.522Z"
+      },
+      {
+        "empty_slots": 14,
+        "extra": {
+          "address": "Parnell Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 20,
+          "ticket": false,
+          "uid": 31
+        },
+        "free_bikes": 6,
+        "id": "45918c3c3aefd7503768a69654b2673a",
+        "latitude": 53.350929,
+        "longitude": -6.265125,
+        "name": "Parnell Street",
+        "timestamp": "2015-04-17T22:22:56.638Z"
+      },
+      {
+        "empty_slots": 13,
+        "extra": {
+          "address": "Talbot Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309085",
+          "open": true,
+          "slots": 40,
+          "ticket": false,
+          "uid": 38
+        },
+        "free_bikes": 27,
+        "id": "745f937185c7bcec73ef007235d5583e",
+        "latitude": 53.350974,
+        "longitude": -6.25294,
+        "name": "Talbot Street",
+        "timestamp": "2015-04-17T22:17:50.485Z"
+      },
+      {
+        "empty_slots": 1,
+        "extra": {
+          "address": "Portobello Harbour",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309085",
+          "open": true,
+          "slots": 30,
+          "ticket": false,
+          "uid": 34
+        },
+        "free_bikes": 29,
+        "id": "3c0cfd547a142bb651280991a412bcbe",
+        "latitude": 53.330362,
+        "longitude": -6.265163,
+        "name": "Portobello Harbour",
+        "timestamp": "2015-04-17T22:19:53.281Z"
+      },
+      {
+        "empty_slots": 1,
+        "extra": {
+          "address": "Pearse Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 30,
+          "ticket": true,
+          "uid": 32
+        },
+        "free_bikes": 29,
+        "id": "1d00b2d8a2c6e87fe5bce251bf05f2f8",
+        "latitude": 53.344304,
+        "longitude": -6.250427,
+        "name": "Pearse Street",
+        "timestamp": "2015-04-17T22:22:56.693Z"
+      },
+      {
+        "empty_slots": 20,
+        "extra": {
+          "address": "Georges Quay",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309085",
+          "open": false,
+          "slots": 20,
+          "ticket": false,
+          "uid": 16
+        },
+        "free_bikes": 0,
+        "id": "427f01fdc89a9e4156f70c7810784bc1",
+        "latitude": 53.347508,
+        "longitude": -6.252192,
+        "name": "Georges Quay",
+        "timestamp": "2015-04-17T22:17:50.563Z"
+      },
+      {
+        "empty_slots": 10,
+        "extra": {
+          "address": "Smithfield",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 30,
+          "ticket": false,
+          "uid": 35
+        },
+        "free_bikes": 20,
+        "id": "0bd08b069605f316a1223da35b19543d",
+        "latitude": 53.347692,
+        "longitude": -6.278214,
+        "name": "Smithfield",
+        "timestamp": "2015-04-17T22:19:53.34Z"
+      },
+      {
+        "empty_slots": 13,
+        "extra": {
+          "address": "Greek Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 20,
+          "ticket": false,
+          "uid": 4
+        },
+        "free_bikes": 7,
+        "id": "948327418119a9fbf5fec754db7dc5df",
+        "latitude": 53.346874,
+        "longitude": -6.272976,
+        "name": "Greek Street",
+        "timestamp": "2015-04-17T22:19:53.045Z"
+      },
+      {
+        "empty_slots": 20,
+        "extra": {
+          "address": "Wilton Terrace",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 20,
+          "ticket": true,
+          "uid": 39
+        },
+        "free_bikes": 0,
+        "id": "96c377e929ac4d83561b0efb7ed48910",
+        "latitude": 53.332383,
+        "longitude": -6.252717,
+        "name": "Wilton Terrace",
+        "timestamp": "2015-04-17T22:17:50.624Z"
+      },
+      {
+        "empty_slots": 20,
+        "extra": {
+          "address": "Custom House Quay",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309085",
+          "open": true,
+          "slots": 30,
+          "ticket": false,
+          "uid": 8
+        },
+        "free_bikes": 10,
+        "id": "f5e210c0a5dcc2f14bf01589bc541d79",
+        "latitude": 53.347884,
+        "longitude": -6.248048,
+        "name": "Custom House Quay",
+        "timestamp": "2015-04-17T22:19:53.391Z"
+      },
+      {
+        "empty_slots": 13,
+        "extra": {
+          "address": "Charlemont Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": false,
+          "uid": 5
+        },
+        "free_bikes": 26,
+        "id": "4d01aeaab7d37c25b090856eefcc354c",
+        "latitude": 53.330662,
+        "longitude": -6.260177,
+        "name": "Charlemont Place",
+        "timestamp": "2015-04-17T22:19:53.155Z"
+      },
+      {
+        "empty_slots": 21,
+        "extra": {
+          "address": "Jervis Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 21,
+          "ticket": true,
+          "uid": 40
+        },
+        "free_bikes": 0,
+        "id": "cbd6fb0ab33a7fdb706980585189da92",
+        "latitude": 53.3483,
+        "longitude": -6.266651,
+        "name": "Jervis Street",
+        "timestamp": "2015-04-17T22:17:50.686Z"
+      },
+      {
+        "empty_slots": 40,
+        "extra": {
+          "address": "Lime Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": false,
+          "uid": 62
+        },
+        "free_bikes": 0,
+        "id": "a2528349192a64f5841d6d5beaac8285",
+        "latitude": 53.346026,
+        "longitude": -6.243576,
+        "name": "Lime Street",
+        "timestamp": "2015-04-17T22:17:53.757Z"
+      },
+      {
+        "empty_slots": 24,
+        "extra": {
+          "address": "High Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 29,
+          "ticket": true,
+          "uid": 7
+        },
+        "free_bikes": 5,
+        "id": "279a7a5d9e07d50528ff6479df92b3fb",
+        "latitude": 53.343565,
+        "longitude": -6.275071,
+        "name": "High Street",
+        "timestamp": "2015-04-17T22:19:53.225Z"
+      },
+      {
+        "empty_slots": 2,
+        "extra": {
+          "address": "Smithfield North",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 30,
+          "ticket": true,
+          "uid": 42
+        },
+        "free_bikes": 28,
+        "id": "aa9dd743c0057f1898341bab187b68fc",
+        "latitude": 53.349562,
+        "longitude": -6.278198,
+        "name": "Smithfield North",
+        "timestamp": "2015-04-17T22:17:50.744Z"
+      },
+      {
+        "empty_slots": 17,
+        "extra": {
+          "address": "New Central Bank",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": false,
+          "uid": 66
+        },
+        "free_bikes": 23,
+        "id": "b0c26d04d6812062b8d48e87eeec5407",
+        "latitude": 53.347122,
+        "longitude": -6.234749,
+        "name": "New Central Bank",
+        "timestamp": "2015-04-17T22:17:53.834Z"
+      },
+      {
+        "empty_slots": 21,
+        "extra": {
+          "address": "Exchequer Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 24,
+          "ticket": false,
+          "uid": 9
+        },
+        "free_bikes": 3,
+        "id": "c95abfb01cb256a25061f544fb13e2c8",
+        "latitude": 53.343034,
+        "longitude": -6.263578,
+        "name": "Exchequer Street",
+        "timestamp": "2015-04-17T22:19:53.531Z"
+      },
+      {
+        "empty_slots": 33,
+        "extra": {
+          "address": "Mount Street Lower",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": false,
+          "uid": 56
+        },
+        "free_bikes": 7,
+        "id": "577db83eb19140b4f4a821bb93118e59",
+        "latitude": 53.33796,
+        "longitude": -6.24153,
+        "name": "Mount Street Lower",
+        "timestamp": "2015-04-17T22:17:50.795Z"
+      },
+      {
+        "empty_slots": 1,
+        "extra": {
+          "address": "Deverell Place",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 30,
+          "ticket": false,
+          "uid": 45
+        },
+        "free_bikes": 29,
+        "id": "98efd5ef2d9832e32fa341c6f4e39889",
+        "latitude": 53.351464,
+        "longitude": -6.255265,
+        "name": "Deverell Place",
+        "timestamp": "2015-04-17T22:17:53.933Z"
+      },
+      {
+        "empty_slots": 25,
+        "extra": {
+          "address": "Eccles Street East",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 27,
+          "ticket": false,
+          "uid": 79
+        },
+        "free_bikes": 2,
+        "id": "0df9de93015a6cbbe7e505075ca67b88",
+        "latitude": 53.358115,
+        "longitude": -6.265601,
+        "name": "Eccles Street East",
+        "timestamp": "2015-04-17T22:17:53.354Z"
+      },
+      {
+        "empty_slots": 5,
+        "extra": {
+          "address": "Dame Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 16,
+          "ticket": true,
+          "uid": 10
+        },
+        "free_bikes": 11,
+        "id": "49d8c36b00f1581cc9ca2fe1b87b7a5a",
+        "latitude": 53.344007,
+        "longitude": -6.266802,
+        "name": "Dame Street",
+        "timestamp": "2015-04-17T22:19:53.598Z"
+      },
+      {
+        "empty_slots": 30,
+        "extra": {
+          "address": "James Street East",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 30,
+          "ticket": false,
+          "uid": 20
+        },
+        "free_bikes": 0,
+        "id": "ed60505a59b0eac83ebc6bb37450001b",
+        "latitude": 53.336485,
+        "longitude": -6.248174,
+        "name": "James Street East",
+        "timestamp": "2015-04-17T22:17:54.035Z"
+      },
+      {
+        "empty_slots": 30,
+        "extra": {
+          "address": "Earlsfort Terrace",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 30,
+          "ticket": false,
+          "uid": 11
+        },
+        "free_bikes": 0,
+        "id": "7d6693958679aa3f7ac6f5bf202c6c27",
+        "latitude": 53.334019,
+        "longitude": -6.258371,
+        "name": "Earlsfort Terrace",
+        "timestamp": "2015-04-17T22:19:53.648Z"
+      },
+      {
+        "empty_slots": 1,
+        "extra": {
+          "address": "Portobello Road",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 30,
+          "ticket": true,
+          "uid": 43
+        },
+        "free_bikes": 29,
+        "id": "e24d1c306b1d65ad507083c305c709dc",
+        "latitude": 53.330091,
+        "longitude": -6.268044,
+        "name": "Portobello Road",
+        "timestamp": "2015-04-17T22:17:53.494Z"
+      },
+      {
+        "empty_slots": 16,
+        "extra": {
+          "address": "Strand Street Great",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 35,
+          "ticket": true,
+          "uid": 46
+        },
+        "free_bikes": 19,
+        "id": "e66a414e5e7bb051584eb24e8832a29b",
+        "latitude": 53.347082,
+        "longitude": -6.264192,
+        "name": "Strand Street Great",
+        "timestamp": "2015-04-17T22:17:54.157Z"
+      },
+      {
+        "empty_slots": 15,
+        "extra": {
+          "address": "Hardwicke Place",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 25,
+          "ticket": true,
+          "uid": 61
+        },
+        "free_bikes": 10,
+        "id": "6f8f3c1c562ee09e6c33c8606137d72c",
+        "latitude": 53.357043,
+        "longitude": -6.263232,
+        "name": "Hardwicke Place",
+        "timestamp": "2015-04-17T22:17:53.595Z"
+      },
+      {
+        "empty_slots": 39,
+        "extra": {
+          "address": "Excise Walk",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": false,
+          "uid": 48
+        },
+        "free_bikes": 0,
+        "id": "23b52025656abda6ce66359eced63f7f",
+        "latitude": 53.347777,
+        "longitude": -6.244239,
+        "name": "Excise Walk",
+        "timestamp": "2015-04-17T22:17:53.562Z"
+      },
+      {
+        "empty_slots": 10,
+        "extra": {
+          "address": "Eccles Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 20,
+          "ticket": false,
+          "uid": 12
+        },
+        "free_bikes": 10,
+        "id": "cda1c18c4d2056fb5beddd1c630e1ab0",
+        "latitude": 53.359246,
+        "longitude": -6.269779,
+        "name": "Eccles Street",
+        "timestamp": "2015-04-17T22:17:46.695Z"
+      },
+      {
+        "empty_slots": 24,
+        "extra": {
+          "address": "Newman House",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309085",
+          "open": true,
+          "slots": 40,
+          "ticket": false,
+          "uid": 53
+        },
+        "free_bikes": 3,
+        "id": "bca80581dac58915734223afb6f9d18a",
+        "latitude": 53.337132,
+        "longitude": -6.26059,
+        "name": "Newman House",
+        "timestamp": "2015-04-17T22:17:54.076Z"
+      },
+      {
+        "empty_slots": 2,
+        "extra": {
+          "address": "Sandwith Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": true,
+          "uid": 64
+        },
+        "free_bikes": 38,
+        "id": "f4ba711dcc36d47f4801d26ebda44edd",
+        "latitude": 53.345203,
+        "longitude": -6.247163,
+        "name": "Sandwith Street",
+        "timestamp": "2015-04-17T22:17:54.149Z"
+      },
+      {
+        "empty_slots": 7,
+        "extra": {
+          "address": "Custom House",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 30,
+          "ticket": true,
+          "uid": 23
+        },
+        "free_bikes": 23,
+        "id": "c0eb1d097e6980bb8b91c2aee34d28c1",
+        "latitude": 53.348279,
+        "longitude": -6.254662,
+        "name": "Custom House",
+        "timestamp": "2015-04-17T22:17:53.709Z"
+      },
+      {
+        "empty_slots": 2,
+        "extra": {
+          "address": "Fownes Street Upper",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309085",
+          "open": true,
+          "slots": 30,
+          "ticket": false,
+          "uid": 14
+        },
+        "free_bikes": 28,
+        "id": "91dfa0e55f92403e93f25d1aab411b7c",
+        "latitude": 53.344603,
+        "longitude": -6.263371,
+        "name": "Fownes Street Upper",
+        "timestamp": "2015-04-17T22:17:47.118Z"
+      },
+      {
+        "empty_slots": 35,
+        "extra": {
+          "address": "Sir Patrick's Dun",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": true,
+          "uid": 58
+        },
+        "free_bikes": 5,
+        "id": "6637d89d1c9a28945ae2e00a170532e2",
+        "latitude": 53.339218,
+        "longitude": -6.240642,
+        "name": "Sir Patrick Dun'S",
+        "timestamp": "2015-04-17T22:17:54.233Z"
+      },
+      {
+        "empty_slots": 23,
+        "extra": {
+          "address": "John Street West",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 31,
+          "ticket": false,
+          "uid": 72
+        },
+        "free_bikes": 8,
+        "id": "1ff69df9ba513f13683792c5824f1fc8",
+        "latitude": 53.343105,
+        "longitude": -6.277167,
+        "name": "John Street West",
+        "timestamp": "2015-04-17T22:17:54.399Z"
+      },
+      {
+        "empty_slots": 3,
+        "extra": {
+          "address": "Townsend Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 20,
+          "ticket": false,
+          "uid": 22
+        },
+        "free_bikes": 17,
+        "id": "545abfed174ff3eba9ee8adc12b33e68",
+        "latitude": 53.345922,
+        "longitude": -6.254614,
+        "name": "Townsend Street",
+        "timestamp": "2015-04-17T22:17:53.895Z"
+      },
+      {
+        "empty_slots": 40,
+        "extra": {
+          "address": "Hanover Quay",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": true,
+          "uid": 68
+        },
+        "free_bikes": 0,
+        "id": "f9bffc0c780d185d007102b425dfc7e1",
+        "latitude": 53.344115,
+        "longitude": -6.237153,
+        "name": "Hanover Quay",
+        "timestamp": "2015-04-17T22:17:53.429Z"
+      },
+      {
+        "empty_slots": 21,
+        "extra": {
+          "address": "The Point",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": true,
+          "uid": 67
+        },
+        "free_bikes": 19,
+        "id": "424686745b03bf79a129185f0d9e8f31",
+        "latitude": 53.346867,
+        "longitude": -6.230852,
+        "name": "The Point",
+        "timestamp": "2015-04-17T22:23:53.485Z"
+      },
+      {
+        "empty_slots": 12,
+        "extra": {
+          "address": "Harcourt Terrace",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 20,
+          "ticket": false,
+          "uid": 41
+        },
+        "free_bikes": 8,
+        "id": "33030fc55807ba8703db9da20ac87616",
+        "latitude": 53.332763,
+        "longitude": -6.257942,
+        "name": "Harcourt Terrace",
+        "timestamp": "2015-04-17T22:17:53.678Z"
+      },
+      {
+        "empty_slots": 8,
+        "extra": {
+          "address": "Blessington Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 20,
+          "ticket": true,
+          "uid": 2
+        },
+        "free_bikes": 12,
+        "id": "633407d717379558361082872bf00e3c",
+        "latitude": 53.356769,
+        "longitude": -6.26814,
+        "name": "Blessington Street",
+        "timestamp": "2015-04-17T22:23:53.567Z"
+      },
+      {
+        "empty_slots": 24,
+        "extra": {
+          "address": "Wolfe Tone Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 29,
+          "ticket": false,
+          "uid": 77
+        },
+        "free_bikes": 5,
+        "id": "d3ef511cdd49198b6e9c2f24c09c4a0d",
+        "latitude": 53.348875,
+        "longitude": -6.267459,
+        "name": "Wolfe Tone Street",
+        "timestamp": "2015-04-17T22:17:53.985Z"
+      },
+      {
+        "empty_slots": 7,
+        "extra": {
+          "address": "Blackhall Place",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 30,
+          "ticket": false,
+          "uid": 88
+        },
+        "free_bikes": 23,
+        "id": "bc84f752c0329ba197f92110262951d3",
+        "latitude": 53.3488,
+        "longitude": -6.281637,
+        "name": "Blackhall Place",
+        "timestamp": "2015-04-17T22:23:53.68Z"
+      },
+      {
+        "empty_slots": 10,
+        "extra": {
+          "address": "Grantham Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309085",
+          "open": true,
+          "slots": 30,
+          "ticket": true,
+          "uid": 18
+        },
+        "free_bikes": 20,
+        "id": "95b25abb14351ba18840c307f9af37cc",
+        "latitude": 53.334123,
+        "longitude": -6.265436,
+        "name": "Grantham Street",
+        "timestamp": "2015-04-17T22:21:08.741Z"
+      },
+      {
+        "empty_slots": 35,
+        "extra": {
+          "address": "Barrow Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": true,
+          "uid": 70
+        },
+        "free_bikes": 5,
+        "id": "cd8f6c9b907c3698924f61f572573dfb",
+        "latitude": 53.341655,
+        "longitude": -6.236198,
+        "name": "Barrow Street",
+        "timestamp": "2015-04-17T22:17:54.063Z"
+      },
+      {
+        "empty_slots": 36,
+        "extra": {
+          "address": "Benson Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": false,
+          "uid": 90
+        },
+        "free_bikes": 4,
+        "id": "0f8feb0dc54ee559f1517c597e284663",
+        "latitude": 53.344153,
+        "longitude": -6.233451,
+        "name": "Benson Street",
+        "timestamp": "2015-04-17T22:23:53.728Z"
+      },
+      {
+        "empty_slots": 31,
+        "extra": {
+          "address": "Clonmel Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 33,
+          "ticket": false,
+          "uid": 54
+        },
+        "free_bikes": 2,
+        "id": "13b5177c9d64d6cb8072f680addbf274",
+        "latitude": 53.336021,
+        "longitude": -6.26298,
+        "name": "Clonmel Street",
+        "timestamp": "2015-04-17T22:18:55.256Z"
+      },
+      {
+        "empty_slots": 12,
+        "extra": {
+          "address": "Hardwicke Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 16,
+          "ticket": false,
+          "uid": 15
+        },
+        "free_bikes": 4,
+        "id": "a2da0ed146cbbdd49885f0858d7fa923",
+        "latitude": 53.355473,
+        "longitude": -6.264423,
+        "name": "Hardwicke Street",
+        "timestamp": "2015-04-17T22:21:08.948Z"
+      },
+      {
+        "empty_slots": 23,
+        "extra": {
+          "address": "South Dock Road",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 30,
+          "ticket": false,
+          "uid": 91
+        },
+        "free_bikes": 7,
+        "id": "56af00ad9631d36e6aa66697b718f9e0",
+        "latitude": 53.341833,
+        "longitude": -6.231291,
+        "name": "South Dock Road",
+        "timestamp": "2015-04-17T22:23:53.792Z"
+      },
+      {
+        "empty_slots": 39,
+        "extra": {
+          "address": "Grand Canal Dock",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": false,
+          "uid": 69
+        },
+        "free_bikes": 1,
+        "id": "76de76200b4558fdf5985cb25f1fe77e",
+        "latitude": 53.342638,
+        "longitude": -6.238695,
+        "name": "Grand Canal Dock",
+        "timestamp": "2015-04-17T22:17:54.156Z"
+      },
+      {
+        "empty_slots": 40,
+        "extra": {
+          "address": "Convention Centre",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309085",
+          "open": true,
+          "slots": 40,
+          "ticket": true,
+          "uid": 65
+        },
+        "free_bikes": 0,
+        "id": "da5ff1f0e055a61cdbd2cfa4304e6d35",
+        "latitude": 53.34744,
+        "longitude": -6.238523,
+        "name": "Convention Centre",
+        "timestamp": "2015-04-17T22:18:55.343Z"
+      },
+      {
+        "empty_slots": 13,
+        "extra": {
+          "address": "Golden Lane",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309085",
+          "open": true,
+          "slots": 20,
+          "ticket": false,
+          "uid": 17
+        },
+        "free_bikes": 7,
+        "id": "85892a5c607e9d8c748b26e74f3a5db2",
+        "latitude": 53.340803,
+        "longitude": -6.267732,
+        "name": "Golden Lane",
+        "timestamp": "2015-04-17T22:21:09.136Z"
+      },
+      {
+        "empty_slots": 19,
+        "extra": {
+          "address": "Francis Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 30,
+          "ticket": true,
+          "uid": 73
+        },
+        "free_bikes": 11,
+        "id": "2507ed763f57e32fdfce219ee90019db",
+        "latitude": 53.342081,
+        "longitude": -6.275233,
+        "name": "Francis Street",
+        "timestamp": "2015-04-17T22:17:54.236Z"
+      },
+      {
+        "empty_slots": 5,
+        "extra": {
+          "address": "Mount Brown",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 22,
+          "ticket": false,
+          "uid": 82
+        },
+        "free_bikes": 17,
+        "id": "8aadbf40c946051429ab75543f009e29",
+        "latitude": 53.341645,
+        "longitude": -6.29719,
+        "name": "Mount Brown",
+        "timestamp": "2015-04-17T22:23:53.898Z"
+      },
+      {
+        "empty_slots": 30,
+        "extra": {
+          "address": "Oliver Bond Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 30,
+          "ticket": false,
+          "uid": 74
+        },
+        "free_bikes": 0,
+        "id": "ba200d004f519056c7c22174689a353d",
+        "latitude": 53.343893,
+        "longitude": -6.280531,
+        "name": "Oliver Bond Street",
+        "timestamp": "2015-04-17T22:18:55.39Z"
+      },
+      {
+        "empty_slots": 7,
+        "extra": {
+          "address": "Princes Street / O'Connell Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 23,
+          "ticket": true,
+          "uid": 33
+        },
+        "free_bikes": 16,
+        "id": "01908efd6badf1c9cf37f1fb62160bbd",
+        "latitude": 53.349013,
+        "longitude": -6.260311,
+        "name": "Princes Street / O'Connell Street",
+        "timestamp": "2015-04-17T22:21:47.391Z"
+      },
+      {
+        "empty_slots": 19,
+        "extra": {
+          "address": "Grattan Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 23,
+          "ticket": false,
+          "uid": 57
+        },
+        "free_bikes": 4,
+        "id": "26abc58b27ae800ff23d6b82e0e11ef5",
+        "latitude": 53.339629,
+        "longitude": -6.243778,
+        "name": "Grattan Street",
+        "timestamp": "2015-04-17T22:23:53.967Z"
+      },
+      {
+        "empty_slots": 30,
+        "extra": {
+          "address": "Herbert Place",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 30,
+          "ticket": false,
+          "uid": 19
+        },
+        "free_bikes": 0,
+        "id": "ed74535aec51c7f285d982bd70b03c0d",
+        "latitude": 53.334432,
+        "longitude": -6.245575,
+        "name": "Herbert Place",
+        "timestamp": "2015-04-17T22:18:55.435Z"
+      },
+      {
+        "empty_slots": 6,
+        "extra": {
+          "address": "Christchurch Place",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 20,
+          "ticket": false,
+          "uid": 6
+        },
+        "free_bikes": 14,
+        "id": "8cd8770c3500b58e05c65dca076a00ac",
+        "latitude": 53.343368,
+        "longitude": -6.27012,
+        "name": "Christchurch Place",
+        "timestamp": "2015-04-17T22:18:54.904Z"
+      },
+      {
+        "empty_slots": 35,
+        "extra": {
+          "address": "York Street West",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": false,
+          "uid": 51
+        },
+        "free_bikes": 5,
+        "id": "49ac0f7be439341005b8113957bdb7b7",
+        "latitude": 53.339334,
+        "longitude": -6.264699,
+        "name": "York Street West",
+        "timestamp": "2015-04-17T22:18:55.021Z"
+      },
+      {
+        "empty_slots": 0,
+        "extra": {
+          "address": "North Circular Road",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 30,
+          "ticket": true,
+          "uid": 60
+        },
+        "free_bikes": 30,
+        "id": "665a1d9b2f88f5bced1a2ee49a99e937",
+        "latitude": 53.359624,
+        "longitude": -6.260348,
+        "name": "North Circular Road",
+        "timestamp": "2015-04-17T22:18:55.645Z"
+      },
+      {
+        "empty_slots": 17,
+        "extra": {
+          "address": "York Street East",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 32,
+          "ticket": false,
+          "uid": 52
+        },
+        "free_bikes": 15,
+        "id": "0c34fb0af6d2b20fe458d5fef1150854",
+        "latitude": 53.338755,
+        "longitude": -6.262003,
+        "name": "York Street East",
+        "timestamp": "2015-04-17T22:18:55.09Z"
+      },
+      {
+        "empty_slots": 26,
+        "extra": {
+          "address": "Kilmainham Lane",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309086",
+          "open": true,
+          "slots": 30,
+          "ticket": false,
+          "uid": 96
+        },
+        "free_bikes": 4,
+        "id": "250660fe6d0e479bd0bf3681286bbac4",
+        "latitude": 53.341805,
+        "longitude": -6.305085,
+        "name": "Kilmainham Lane",
+        "timestamp": "2015-04-17T22:21:07.359Z"
+      },
+      {
+        "empty_slots": 14,
+        "extra": {
+          "address": "Chatham Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309085",
+          "open": true,
+          "slots": 29,
+          "ticket": false,
+          "uid": 1
+        },
+        "free_bikes": 15,
+        "id": "e1d6379beb931ae1ad3c709f6d939ae5",
+        "latitude": 53.340962,
+        "longitude": -6.262287,
+        "name": "Chatham Street",
+        "timestamp": "2015-04-17T22:21:08.566Z"
+      },
+      {
+        "empty_slots": 17,
+        "extra": {
+          "address": "Leinster Street South",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 30,
+          "ticket": false,
+          "uid": 21
+        },
+        "free_bikes": 13,
+        "id": "381519659470772b8e6373137aa54ed0",
+        "latitude": 53.34218,
+        "longitude": -6.254485,
+        "name": "Leinster Street South",
+        "timestamp": "2015-04-17T22:17:53.807Z"
+      },
+      {
+        "empty_slots": 40,
+        "extra": {
+          "address": "St. Stephen's Green East",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": true,
+          "uid": 36
+        },
+        "free_bikes": 0,
+        "id": "7480160ebd2b0de5cc9b7d0ca2265908",
+        "latitude": 53.337824,
+        "longitude": -6.256035,
+        "name": "St. Stephen'S Green East",
+        "timestamp": "2015-04-17T22:19:53.467Z"
+      },
+      {
+        "empty_slots": 2,
+        "extra": {
+          "address": "Upper Sherrard Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 30,
+          "ticket": false,
+          "uid": 44
+        },
+        "free_bikes": 28,
+        "id": "a829cb901d24566f0610a5874342349d",
+        "latitude": 53.358437,
+        "longitude": -6.260641,
+        "name": "Upper Sherrard Street",
+        "timestamp": "2015-04-17T22:17:53.676Z"
+      },
+      {
+        "empty_slots": 18,
+        "extra": {
+          "address": "Heuston Station (Car Park)",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309086",
+          "open": true,
+          "slots": 40,
+          "ticket": false,
+          "uid": 94
+        },
+        "free_bikes": 22,
+        "id": "43060a5abcbb254aed204872da5b300f",
+        "latitude": 53.346985,
+        "longitude": -6.297804,
+        "name": "Heuston Station (Car Park)",
+        "timestamp": "2015-04-17T22:21:07.955Z"
+      },
+      {
+        "empty_slots": 21,
+        "extra": {
+          "address": "St. James Hospital (Central)",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309086",
+          "open": true,
+          "slots": 40,
+          "ticket": false,
+          "uid": 81
+        },
+        "free_bikes": 19,
+        "id": "88fdb1577fd37c57823005954a34b2c4",
+        "latitude": 53.339983,
+        "longitude": -6.295594,
+        "name": "St. James Hospital (Central)",
+        "timestamp": "2015-04-17T22:21:08.33Z"
+      },
+      {
+        "empty_slots": 11,
+        "extra": {
+          "address": "Parnell Square North",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 20,
+          "ticket": true,
+          "uid": 30
+        },
+        "free_bikes": 9,
+        "id": "fd831b125d944544fd7a030f8179d15a",
+        "latitude": 53.353462,
+        "longitude": -6.265305,
+        "name": "Parnell Square North",
+        "timestamp": "2015-04-17T22:22:56.471Z"
+      },
+      {
+        "empty_slots": 0,
+        "extra": {
+          "address": "Heuston Bridge (South)",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309086",
+          "open": true,
+          "slots": 25,
+          "ticket": false,
+          "uid": 100
+        },
+        "free_bikes": 25,
+        "id": "8dc250e10f6b800ab66807db4fcec02b",
+        "latitude": 53.347106,
+        "longitude": -6.292041,
+        "name": "Heuston Bridge (South)",
+        "timestamp": "2015-04-17T22:23:53.898Z"
+      },
+      {
+        "empty_slots": 29,
+        "extra": {
+          "address": "St. Stephen's Green South",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 30,
+          "ticket": true,
+          "uid": 37
+        },
+        "free_bikes": 1,
+        "id": "bf6b75f2039b2b974a61b0f7ec1fe12f",
+        "latitude": 53.337494,
+        "longitude": -6.26199,
+        "name": "St. Stephen'S Green South",
+        "timestamp": "2015-04-17T22:17:50.434Z"
+      },
+      {
+        "empty_slots": 31,
+        "extra": {
+          "address": "Market Street South",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 38,
+          "ticket": false,
+          "uid": 76
+        },
+        "free_bikes": 7,
+        "id": "da5ec52b97e932d1a68cb96164879bf6",
+        "latitude": 53.342296,
+        "longitude": -6.287661,
+        "name": "Market Street South",
+        "timestamp": "2015-04-17T22:18:55.298Z"
+      },
+      {
+        "empty_slots": 29,
+        "extra": {
+          "address": "Western Way",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": false,
+          "uid": 102
+        },
+        "free_bikes": 11,
+        "id": "00fdf0f8415ac09af8709303f5dd419d",
+        "latitude": 53.354929,
+        "longitude": -6.269425,
+        "name": "Western Way",
+        "timestamp": "2015-04-17T22:23:53.801Z"
+      },
+      {
+        "empty_slots": 15,
+        "extra": {
+          "address": "Guild Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": false,
+          "uid": 49
+        },
+        "free_bikes": 25,
+        "id": "c69463d2b93dfe6d264028658d7355da",
+        "latitude": 53.347932,
+        "longitude": -6.240928,
+        "name": "Guild Street",
+        "timestamp": "2015-04-17T22:17:53.55Z"
+      },
+      {
+        "empty_slots": 9,
+        "extra": {
+          "address": "Mater Hospital",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": false,
+          "uid": 78
+        },
+        "free_bikes": 31,
+        "id": "ada935c92adf2369d92391d9fb5398fb",
+        "latitude": 53.359967,
+        "longitude": -6.264828,
+        "name": "Mater Hospital",
+        "timestamp": "2015-04-17T22:17:53.865Z"
+      },
+      {
+        "empty_slots": 1,
+        "extra": {
+          "address": "Parkgate Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 38,
+          "ticket": true,
+          "uid": 86
+        },
+        "free_bikes": 37,
+        "id": "5169be333974ddf2a5f9e22896cb95fa",
+        "latitude": 53.347972,
+        "longitude": -6.291804,
+        "name": "Parkgate Street",
+        "timestamp": "2015-04-17T22:23:53.848Z"
+      },
+      {
+        "empty_slots": 32,
+        "extra": {
+          "address": "Kevin Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": true,
+          "uid": 71
+        },
+        "free_bikes": 7,
+        "id": "c6afbdf0e0873225c50674450c782afb",
+        "latitude": 53.337757,
+        "longitude": -6.267699,
+        "name": "Kevin Street",
+        "timestamp": "2015-04-17T22:17:53.154Z"
+      },
+      {
+        "empty_slots": 14,
+        "extra": {
+          "address": "Royal Hospital",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309086",
+          "open": true,
+          "slots": 40,
+          "ticket": true,
+          "uid": 95
+        },
+        "free_bikes": 26,
+        "id": "d259018d44d9783796099054d965f33a",
+        "latitude": 53.343897,
+        "longitude": -6.29706,
+        "name": "Royal Hospital",
+        "timestamp": "2015-04-17T22:21:07.549Z"
+      },
+      {
+        "empty_slots": 20,
+        "extra": {
+          "address": "Kilmainham Gaol",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309086",
+          "open": true,
+          "slots": 40,
+          "ticket": true,
+          "uid": 97
+        },
+        "free_bikes": 20,
+        "id": "ab7d72d5a8ea1d870f8ccae6852b5dc6",
+        "latitude": 53.342113,
+        "longitude": -6.310015,
+        "name": "Kilmainham Gaol",
+        "timestamp": "2015-04-17T22:21:07.808Z"
+      },
+      {
+        "empty_slots": 28,
+        "extra": {
+          "address": "James Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": true,
+          "uid": 75
+        },
+        "free_bikes": 12,
+        "id": "f1d78de0fc11dec4e7396d1cd0222172",
+        "latitude": 53.343456,
+        "longitude": -6.287409,
+        "name": "James Street",
+        "timestamp": "2015-04-17T22:17:53.791Z"
+      },
+      {
+        "empty_slots": 36,
+        "extra": {
+          "address": "Hatch Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 36,
+          "ticket": false,
+          "uid": 55
+        },
+        "free_bikes": 0,
+        "id": "cb86fbba9f73ec42274939110ddb845e",
+        "latitude": 53.33403,
+        "longitude": -6.260714,
+        "name": "Hatch Street",
+        "timestamp": "2015-04-17T22:23:54.022Z"
+      },
+      {
+        "empty_slots": 38,
+        "extra": {
+          "address": "Herbert Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": false,
+          "uid": 47
+        },
+        "free_bikes": 2,
+        "id": "a5ffb884201a84d6f1cd6fe434170984",
+        "latitude": 53.335742,
+        "longitude": -6.24551,
+        "name": "Herbert Street",
+        "timestamp": "2015-04-17T22:17:54.229Z"
+      },
+      {
+        "empty_slots": 6,
+        "extra": {
+          "address": "St James Hospital (Luas)",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": false,
+          "uid": 80
+        },
+        "free_bikes": 34,
+        "id": "54f426954f30de0045bfd0c3795885fd",
+        "latitude": 53.341359,
+        "longitude": -6.292951,
+        "name": "St James Hospital (Luas)",
+        "timestamp": "2015-04-17T22:17:54.298Z"
+      },
+      {
+        "empty_slots": 11,
+        "extra": {
+          "address": "Mountjoy Square West",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 30,
+          "ticket": false,
+          "uid": 28
+        },
+        "free_bikes": 19,
+        "id": "79c65939a9c632806dcecebc48275944",
+        "latitude": 53.356299,
+        "longitude": -6.258586,
+        "name": "Mountjoy Square West",
+        "timestamp": "2015-04-17T22:22:56.368Z"
+      },
+      {
+        "empty_slots": 4,
+        "extra": {
+          "address": "Collins Barracks Museum",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 38,
+          "ticket": true,
+          "uid": 87
+        },
+        "free_bikes": 34,
+        "id": "bd6828e2b768939185404e89537ab131",
+        "latitude": 53.347477,
+        "longitude": -6.28525,
+        "name": "Collins Barracks Museum",
+        "timestamp": "2015-04-17T22:23:53.621Z"
+      },
+      {
+        "empty_slots": 3,
+        "extra": {
+          "address": "Cathal Brugha Street",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 20,
+          "ticket": false,
+          "uid": 24
+        },
+        "free_bikes": 17,
+        "id": "bf826dd5e8d580728a8927ef7fe25bf9",
+        "latitude": 53.352149,
+        "longitude": -6.260533,
+        "name": "Cathal Brugha Street",
+        "timestamp": "2015-04-17T22:22:56.592Z"
+      },
+      {
+        "empty_slots": 1,
+        "extra": {
+          "address": "Heuston Bridge (North)",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": false,
+          "uid": 92
+        },
+        "free_bikes": 39,
+        "id": "33676fd7a00d95b12a0b24425900caaa",
+        "latitude": 53.347802,
+        "longitude": -6.292432,
+        "name": "Heuston Bridge (North)",
+        "timestamp": "2015-04-17T22:23:53.842Z"
+      },
+      {
+        "empty_slots": 27,
+        "extra": {
+          "address": "Fitzwilliam Square West",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309085",
+          "open": true,
+          "slots": 30,
+          "ticket": false,
+          "uid": 13
+        },
+        "free_bikes": 3,
+        "id": "03a129962208387e736a8305ff928dfe",
+        "latitude": 53.336074,
+        "longitude": -6.252825,
+        "name": "Fitzwilliam Square West",
+        "timestamp": "2015-04-17T22:17:47.039Z"
+      },
+      {
+        "empty_slots": 36,
+        "extra": {
+          "address": "Frederick Street South",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": true,
+          "uid": 98
+        },
+        "free_bikes": 4,
+        "id": "7a78649dff82a724a790100242faf612",
+        "latitude": 53.341515,
+        "longitude": -6.256853,
+        "name": "Frederick Street South",
+        "timestamp": "2015-04-17T22:21:08.114Z"
+      },
+      {
+        "empty_slots": 39,
+        "extra": {
+          "address": "Fitzwilliam Square East",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 40,
+          "ticket": true,
+          "uid": 89
+        },
+        "free_bikes": 1,
+        "id": "153ff4dfb7bd8912ef91c10849129c2e",
+        "latitude": 53.335211,
+        "longitude": -6.2509,
+        "name": "Fitzwilliam Square East",
+        "timestamp": "2015-04-17T22:23:53.48Z"
+      },
+      {
+        "empty_slots": 19,
+        "extra": {
+          "address": "Denmark Street Great",
+          "bonus": false,
+          "connected": "1",
+          "last_update": "1429309267",
+          "open": true,
+          "slots": 20,
+          "ticket": false,
+          "uid": 59
+        },
+        "free_bikes": 1,
+        "id": "e72b6d52782953a44ad36563c0d4ae6d",
+        "latitude": 53.35561,
+        "longitude": -6.261397,
+        "name": "Denmark Street Great",
+        "timestamp": "2015-04-17T22:18:55.545Z"
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+title: XBikes
+description: How many bikes remain?
+
+exclude:
+  - bower_components
