@@ -59,6 +59,7 @@ body
       display: none
     .navbar-brand
       padding-left: 0
+      padding-right: 5px
     .navbar-network
       width: 50%
       margin-left: 2%
@@ -70,46 +71,59 @@ body
         white-space: nowrap
         overflow: hidden
 
+#stations-search
+  height: 60px
+  .btn-reset
+    display: none
+    cursor: pointer
+    pointer-events: all
 
-#stations-search.affix
-  margin-left: 10%
-  margin-right: 10%
-  width: 80%
-  top: 5px
-  z-index: 1030
-
-  @media (max-width: 768px)
-    margin-left: 2%
-    margin-right: 2%
-    width: 96%
+  .affix
+    z-index: 1030
+    top: 5px
+    width: 100%
 
 #stations
-  .panel-title, .current-network
-    text-overflow: ellipsis
-    white-space: nowrap
-    overflow: hidden
+  .panel
+    .panel-title, .current-network
+      text-overflow: ellipsis
+      white-space: nowrap
+      overflow: hidden
 
+    .panel-title a
+      text-shadow: 0px 0px 1px #fff
 
-.progress-bar
-  font-size: medium
+    .panel-heading:nth-child(n+2)
+      border-top: 1px solid #ddd
 
-.progress-bar-transparent
-  background: transparent
-  color: #AAA
+  .station
+    .panel-heading
+      padding-left: 5px
+    .panel-body
+      padding: 5px 10px
 
-.panel-title a
-  text-shadow: 0px 0px 1px #fff
+    .progress
+      margin-bottom: 5px
+      .progress-bar
+        font-size: medium
 
-.panel-heading:nth-child(n+2)
-  border-top: 1px solid #ddd
+      .progress-bar-transparent
+        background: transparent
+        color: #AAA
 
-.gold-star
-  color: #FFD700
-  text-shadow: 0px 0px 1px #333
+    .panel.station-tags
+      margin-bottom: 0
 
-.btn-action
-  padding: 0
-  font-size: large
+  .gold-star
+    color: #FFD700
+    text-shadow: 0px 0px 1px #333
+
+  .btn-action
+    padding: 0
+    font-size: large
+
+  .action-edit
+    opacity: .2
 
 .footer .glyphicon-heart
   color: #FFC300

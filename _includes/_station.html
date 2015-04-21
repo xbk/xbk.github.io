@@ -2,6 +2,9 @@
   <div class="panel panel-#{color}">
     <div class="panel-heading">
       <h4 class="panel-title">
+        <a href="#{map}" class="" title="Google Maps" target="_blank">
+          <span><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i></span>
+        </a>
         <strong>#{name}</strong>
         <button type="button" class="close btn-action pull-right" data-action="#{action}" data-id="#{id}" title="#{title}">
           <span><i class="glyphicon glyphicon-#{icon}" aria-hidden="true"></i></span>
@@ -14,8 +17,15 @@
           <strong>#{if free_bikes > 0 then free_bikes else ''}</strong>
         </div>
         <div class="progress-bar progress-bar-transparent" style="width: #{100-percent}%">
-          #{empty_slots}
+          #{if empty_slots > 0 then empty_slots else ''}
         </div>
+      </div>
+      <div class="btn form-group form-group-sm has-feedback btn-action" data-action="tag" data-id="#{id}" title="Edit tags">
+        <div class="input-group">
+          <span class="input-group-addon input-sm"><i class="glyphicon glyphicon-tags"></i></span>
+          <span class="text-muted text-left form-control input-sm">#{tags}</span>
+        </div>
+        <span class="glyphicon glyphicon-pencil form-control-feedback small action-edit"></span>
       </div>
     </div>
   </div>
