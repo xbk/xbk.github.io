@@ -30,6 +30,8 @@ body
   font-family: 'Ubuntu'
 
 .navbar-default
+  height: 43px
+  min-height: 43px
   .current-network
     font-variant: small-caps
     font-weight: bold
@@ -41,38 +43,42 @@ body
     font-family: 'Ubuntu Mono'
     font-variant: small-caps
 
-  .navbar-btn
-    height: 40px
-
   .navbar-network
-    min-width: 40%
-    .caret
-      top: 50%
-      right: 0
-      position: relative
-
-  .navbar-refresh
-    line-height: 27px
+    color: #000
 
   @media (max-width: 768px)
     .navbar-brand-main
       display: none
-    .navbar-brand
-      padding-left: 0
-      padding-right: 5px
-    .navbar-network
-      width: 50%
-      margin-left: 2%
-      margin-right: 2%
-      float: left
-      .current-network
-        max-width: 90%
-        text-overflow: ellipsis
-        white-space: nowrap
-        overflow: hidden
 
-#stations-search
+    .navbar-network
+      margin: 0
+      width: 60%
+      .current-network
+        overflow: hidden
+        white-space: nowrap
+        text-overflow: ellipsis
+        width: 150px
+        display: inline-block
+
+  .navbar-brand
+    padding: 10px 5px 0 0
+    margin-left: 0 !important
+
+  .navbar-network
+    span
+      display: inline-block
+      padding: 0
+    .glyphicon
+      top: 7px
+  .navbar-refresh
+    margin-top: 5px
+
+#stations-filter
   height: 60px
+
+  .search
+    display: none
+
   .btn-reset
     display: none
     cursor: pointer
@@ -80,8 +86,26 @@ body
 
   .affix
     z-index: 1030
-    top: 5px
+    top: 0
+    padding-top: 5px
+    height: 45px
     width: 100%
+    background-color: #fff
+    border-bottom: 1px solid #ddd
+
+  .shortcuts
+    @media (max-width: 768px)
+      width: 100%
+      white-space: nowrap
+      overflow-y: hidden
+      overflow-x: scroll
+      -webkit-overflow-scrolling: touch
+
+    .tags
+      button
+        font-weight: bold
+        border-radius: 0
+
 
 #stations
   .panel

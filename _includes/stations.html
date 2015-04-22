@@ -1,17 +1,34 @@
-<div id="stations-search">
+<div id="stations-filter">
   <div data-spy="affix" data-offset-top="72">
     <div class="container">
-      <form>
-        <div class="form-group has-feedback row">
-          <div class="input-group col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1">
+      <div class="form-group has-feedback search">
+        <div class="row">
+          <div class="col-md-1 col-xs-2">
+            <button class="btn btn-default btn-action" data-action="filterBy" data-id="shortcuts">
+              <i class="glyphicon glyphicon-tags"></i>
+            </button>
+          </div>
+          <span class="input-group col-md-10 col-xs-9">
             <span class="input-group-addon">
               <i class="glyphicon glyphicon-search"></i>
             </span>
-            <input type="search" class="form-control" placeholder="Station, address..." autofocus>
-            <span class="glyphicon glyphicon-remove form-control-feedback btn-reset"></span>
-          </div>
+            <form>
+              <input type="search" class="form-control" placeholder="Station, address..." autofocus>
+            </form>
+            <span class="glyphicon glyphicon-remove form-control-feedback btn-action btn-reset" data-action="setFilter"></span>
+          </span>
         </div>
-      </form>
+      </div>
+      <div class="btn-group shortcuts" role="toolbar">
+        <button class="btn btn-default btn-action" data-action="filterBy" data-id="search">
+          <i class="glyphicon glyphicon-search"></i>
+        </button>
+        <button class="btn btn-primary btn-action" data-action="shortcuts">
+          <i class="glyphicon glyphicon-pencil"></i>
+        </button>
+        <span class="tags">
+        </span>
+      </div>
     </div>
   </div>
 </div>

@@ -25,6 +25,7 @@ Keys =
   network: -> 'network'
   station: (id) -> id
   station_tags: (id) -> "#{id}_tags"
+  shortcuts: (id) -> "#{id}_shortcuts"
 
 
 Maps =
@@ -162,9 +163,12 @@ class Stations
 
   constructor: ->
     @$el = $ '#stations'
-    @$search =
-      input: $ '#stations-search input'
-      reset: $ '#stations-search .btn-reset'
+    @$filter =
+      search: $ '#stations-filter .search'
+      input: $ '#stations-filter .search input'
+      reset: $ '#stations-filter .search .btn-reset'
+      shortcuts: $ '#stations-filter .shortcuts'
+      tags: $ '#stations-filter .shortcuts .tags'
     @$stars = $ '#stars'
     @$all = $ '#all'
     @$updated = $ '#updated'
@@ -172,36 +176,92 @@ class Stations
     @$loading = @$refresh.find '.activity-indicator'
     @empty()
 
-    @$search.reset.on 'click', (e) =>
-      @$search.input.focus().val('').trigger('input')
-
-    @$el.on 'click', '.btn-action', (e) =>
-      $btn = $ e.currentTarget
-      action = $btn.attr 'data-action'
-      id = $btn.attr 'data-id'
-      @[action](id)
+    [@$el, $('#stations-filter')].map ($el) =>
+      $el.on 'click', '.btn-action', (e) =>
+        $btn = $ e.currentTarget
+        action = $btn.attr 'data-action'
+        id = $btn.attr 'data-id'
+        @[action](id)
 
     @$refresh.on 'click', =>
       @refresh()
 
 
-    @$search.input.closest('form').on 'submit', (e) => @filter e
-    @$search.input.on 'input', (e) => @filter e
+    @$filter.input.closest('form').on 'submit', (e) => @filter e
+    @$filter.input.on 'input', (e) => @filter e
+
+  filterBy: (mode) ->
+    switch mode
+      when 'shortcuts'
+        @$filter.search.fadeOut 100,  =>
+          @$filter.shortcuts.fadeIn(100)
+      when 'search'
+        @$filter.shortcuts.fadeOut 100, =>
+          @$filter.search.fadeIn 100, =>
+            @$filter.input.focus()
+
+  setFilter: (text='') =>
+    @$filter.input.focus().val(text).trigger('input')
 
   filter: (e=null) ->
     e?.preventDefault()
-
-    value = @$search.input.val()
+    value = @$filter.input.val()
     $items = @$el.find '.station'
     if value
-      @$search.reset.show()
+      @$filter.reset.show()
       $items.hide()
       for result, i in @index.search value
         $item = $("##{result.ref}")
         $item.show()
     else
-      @$search.reset.hide()
+      @$filter.reset.hide()
       $items.show()
+    @renderShortcuts()
+
+  shortcuts: ->
+    if @network
+      {id} = @network
+      key = Keys.shortcuts id
+      shortcuts = localStorage.getItem key
+      shortcuts = prompt "Please enter a list of commma-separated tags", shortcuts or ''
+      if shortcuts isnt null
+        localStorage.setItem key, shortcuts
+        @renderShortcuts()
+
+  renderShortcuts: ->
+    if @network
+      @$filter.tags.empty()
+      {id} = @network
+      key = Keys.shortcuts id
+      shortcuts = localStorage.getItem key
+      if shortcuts
+        for tag in shortcuts.split ','
+          tag = tag.trim()
+          stations = (@items[ref].free_bikes for {ref} in @index.search tag)
+          bikes =
+            if stations.length
+              stations.reduce (a, b) -> a + b
+            else
+              0
+          val = @$filter.input.val()
+          cls = if tag == val then 'active' else ''
+          @$filter.tags.append(
+            """
+            <button type="button" class="btn btn-info btn-action #{cls}" data-action="setFilter" data-id="#{tag}" data-toggle="button">
+              #{tag}
+              <span class="badge">#{bikes}</span>
+            </button>
+            """
+          )
+      else
+        @$filter.tags.prepend(
+          """
+          <button class="btn btn-default text-muted btn-action" data-action="shortcuts">
+            Click here to start adding shortcuts
+          </button>
+          """
+        )
+
 
   tag: (id) ->
     station = @items[id]
