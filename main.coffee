@@ -36,6 +36,7 @@ class App
   constructor: ->
     @stations = new Stations
     @networks = new Networks @stations
+    @exporter = new Exporter
 
     $(window).on 'hashchange', => @hashchange()
 
@@ -303,6 +304,67 @@ class Stations
       {% include _station.html %}
       """
     )
+
+class Exporter
+  constructor: ->
+    @$el = $ '#exporter'
+    @$textarea = @$el.find 'textarea'
+
+    @$el.on 'click', '.btn-action', (e) =>
+      $btn = $ e.currentTarget
+      action = $btn.attr 'data-action'
+      @[action]()
+
+  export: ->
+    data = JSON.stringify localStorage
+
+    @$textarea
+      .val(data)
+      .select()
+
+    @success(
+      'Data has been exported to this text area.',
+      'Please copy the content and paste it in the browser you want to import the data.'
+    )
+
+  import: ->
+    data = @$textarea.val()
+    if data
+      data = JSON.parse data
+      for k,v of data
+        localStorage.setItem k, v
+      @success 'Imported'
+    else
+      @warning 'Nothing to import'
+
+  clear: ->
+    if confirm 'Are you sure? All data will be lost'
+      localStorage.clear()
+      @$textarea.val ''
+      app.stations.refresh()
+      @success 'All data has been deleted'
+
+  success: (head, body="") ->
+    @$textarea.before(
+      """
+        <div class="alert alert-success alert-dismissible fade in" role="alert">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+          <strong>#{head}</strong> #{body}
+        </div>
+      """
+    )
+
+
+  warning: (head, body="") ->
+    @$textarea.before(
+      """
+        <div class="alert alert-warning alert-dismissible fade in" role="alert">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+          <strong>#{head}</strong>#{body}
+        </div>
+      """
+    )
+
 
 $ ->
   window.app = new App()
